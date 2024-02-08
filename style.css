@@ -1,0 +1,143 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+.nav-link{
+    color: white; 
+}
+
+blockquote p{ /*altera o tamanho e centra o texto no footer*/
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-header { /*altera outra parte do footer*/
+    font-size: 12px;
+    text-align: center;
+    font-family: open sans;
+}
+
+header { /*põe uma sombra entre o carrosel e o card na página principal, por baixo das imagens*/
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1.1);
+}
+
+.image { /*altera as imagens*/
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+img { /*altera tamanho das imagens*/
+    width: 100%;
+}
+
+td { /*criar espaço à volta do conteúdo de um elemento*/
+    padding: 50px;
+}
+
+p { /*altera a letra*/
+    font-family: open Sans;
+    font-size: 18px;
+    text-align: center;
+}
+
+a { /*altera a letra*/
+    font-family: open Sans;
+}
+
+/* .icon { Não faz nada!!!!!
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+} */
+
+/* .carousel-item { tirei pq prefiro sem
+    padding-bottom: 10px;
+} */
+
+.card-group { /*criar espaço à volta do conteúdo de um elemento, entre o card e o carrosel na página principal*/
+     padding: 10px; 
+ } 
+
+.card {/*cria espaço no card página principal, no botão*/
+      padding: 5px;  
+      margin-top: 15px;
+}
+
+.col-md-6, .col-12, .col-md-4, .col-md-2 {/*altera o formulário de contacto, na letra e no "tamanho" do formulário*/
+    padding: 30px;
+    font-family: open sans;
+}
+
+.valid { /*se a resposta estiver válida, a borda da caixa fica verde*/
+    border: 1px solid green;
+}
+
+.invalid { /*se a resposta estiver inválida, a borda da caixa fica vermelha*/
+    border: 1px solid red;
+}
+
+.container { /*altera tamanho do formulário*/
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.alert {/*altera a "caixa" pequena do formulário*/
+    font-family: open sans;
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+.contact { /*altera background do formulário*/
+    background-image: url(imagens/açores.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contact01 {
+    background-image: url(imagens/casa-do-bolo-do-caco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white
+}
+.contact02 {
+    background-image: url(imagens/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white
+}
+.contact03 {
+    background-image: url(imagens/golfinhos_cop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white
+}
+h2 { /*altera texto: põe sublinhado, centraliza e aumenta tamanho*/
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.transparent-image {
+    transition: opacity 0.3s ease-in-out; /* Transição de 0.3 segundos, para não ficar logo com transparência */
+}
+.transparent-image:hover { /*intensidade da transparência */
+    opacity: 0.5;
+}
+
+.button-text { /*altera botão na página principal, no fim da página*/
+    display: inline-block;
+    padding: 5px 5px; /*aumenta espaço do botão*/
+    background-color:rgb(103, 138, 168); /*cor do botão*/
+    color: white; /*cor da letra*/
+    position: absolute; /*posiciona o botão*/
+    top: 77%; /*posiciona relativo ao topo*/
+    right: 5%;/*posiciona segundo distância à direita*/
+    transform: translate(-50%, -50%);/*posiciona*/
+    font-size: 15px;
+    border-radius: 5px;/*adiciona bordas redondas*/
+}
+.rounded { /*adiciona espaçamento entre as imagens*/
+    padding-bottom: 5px;
+}
